@@ -1,0 +1,64 @@
+body {
+    background-color: hsl(216, 12%, 8%);
+    font-family: "Overpass" ;
+    font-weight: 700;
+    color: hsl(0, 100%, 100%);
+    margin: 0;
+      height: 100vh; /* full viewport height */
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+}
+p{
+ font-size : 15px;
+ font-weight: 100;
+}
+.container{
+ width: 300px; 
+ padding: 30px 15px;
+ background-color:  hsl(213, 19%, 18%);
+text-align:left;
+border-radius: 20px;
+
+}
+
+.button-container{
+    display: grid;
+    grid-template-columns: repeat(5 , 1fr);
+    gap: 10px;
+}
+div button{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color:hsl(210, 16%, 15%) ;
+    color: white;
+    margin-bottom: 10px;
+    
+}
+.sub-btn{
+display: block;
+margin: 0 auto;
+width: 90%;
+text-align: center;
+padding: 10px;
+border-radius: 20px;
+background-color: hsl(25, 97%, 53%);
+border: none;
+letter-spacing: 1.5px;
+}
+.sub-btn:hover{
+    background-color: white;
+}
+
+button:hover {
+background-color: hsl(25, 97%, 53%);
+color: black;
+cursor:pointer;
+
+}
+div button.selected{
+    background-color: white;
+    color: black;
+}
